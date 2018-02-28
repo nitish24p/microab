@@ -1,0 +1,28 @@
+{
+  "name": "microab",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitish24p/microab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitish24p/microab/issues"
+  },
+  "homepage": "https://github.com/nitish24p/microab#readme",
+  "description": ""
+}
