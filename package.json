@@ -1,0 +1,33 @@
+{
+  "name": "microab",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "node_modules/.bin/eslint -c ./.eslintrc.json ./lib/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitish24p/microab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitish24p/microab/issues"
+  },
+  "homepage": "https://github.com/nitish24p/microab#readme",
+  "description": ""
+}
