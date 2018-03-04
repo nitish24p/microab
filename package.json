@@ -8,7 +8,10 @@
   },
   "dependencies": {
     "bluebird": "^3.5.1",
-    "redis": "^2.8.0"
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "redis": "^2.8.0",
+    "uniqid": "^4.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
