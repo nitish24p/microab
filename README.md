@@ -48,3 +48,24 @@ app.get('/green', microabClient.checkFeatureResults('Green Dropdown'), function 
 
 app.listen(3000, () => console.log('listening to port 3000'));
 ```
+
+### Start Redis
+```bash
+redis-server
+```
+
+### To start
+```bash
+node examples/demo.js
+
+http://localhost:3000/green
+http://localhost:3000
+```
+should give you a response like this
+
+```json
+{
+  "Red Button" : true
+}
+```
+
