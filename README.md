@@ -1,6 +1,8 @@
 # microab
 MicroAB is an A/B Testing API for express applications. Typically A/B testing frameworks provide an SDK bundle which affects page load time. Microab is a thin middleware for express application enabling A/B testing via a node server with persistence in redis.
 
+<img src="./art/microab.png" width='200' height='200' align='middle'>
+
 ### Dependencies
 1. [redis](https://www.npmjs.com/package/redis)
 2. [Cookie parser](https://www.npmjs.com/package/cookie-parser)
