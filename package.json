@@ -6,7 +6,7 @@
     "example": "examples",
     "lib": "lib"
   },
-  "dependencies": {
+  "peerDependencies": {
     "bluebird": "^3.5.1",
     "cookie-parser": "^1.4.3",
     "express": "^4.16.2",
